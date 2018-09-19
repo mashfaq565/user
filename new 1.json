@@ -358,7 +358,6 @@
 			"yum install -y httpd\n",
 			"systemctl enable httpd\n",
 			"systemctl start httpd\n",
-			"yum install -y git\n",
 		        "echo hello ashfaq >> /var/www/html/hello.text",
 		"setenforce 0"
 			] ]
