@@ -356,6 +356,7 @@
         "Fn::Join" : [ " ", [
             "#!/bin/bash\n",
 			"yum install -y httpd\n",
+			"sudo yum install git -y\n"
 			"systemctl enable httpd\n",
 			"systemctl start httpd\n",
 		        "echo hello ashfaq >> /var/www/html/hello.text",
